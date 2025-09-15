@@ -1,5 +1,7 @@
-let contador = 1;
-while (contador <= 10) {
-    console.log(`Número ${contador}`);
-    contador++;
+let numero = 7;
+
+console.log(`=== tabuada do ${numero} ===`);
+for (let i = 1; i <= 10; i++) {
+    let resultado = numero * i;
+    console.log(`${numero} x ${i} = ${resultado}`);
 }
