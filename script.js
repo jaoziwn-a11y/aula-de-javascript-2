@@ -1,7 +1,6 @@
-let numero = 7;
+let soma = 0;
 
-console.log(`=== tabuada do ${numero} ===`);
 for (let i = 1; i <= 10; i++) {
-    let resultado = numero * i;
-    console.log(`${numero} x ${i} = ${resultado}`);
+  soma += i;
 }
+console.log(`A soma dos números de 1 a 10 é: ${soma}`);
