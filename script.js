@@ -1,6 +1,5 @@
-let soma = 0;
-
-for (let i = 1; i <= 10; i++) {
-  soma += i;
+function calculadoraMedia (n1, n2, n3) {
+    return (n1 + n2 + n3) / 3;
 }
-console.log(`A soma dos números de 1 a 10 é: ${soma}`);
+let media = calculadoraMedia(5, 6, 7);
+console.log(`A média é: ${media}`);
