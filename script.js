@@ -1,5 +1,9 @@
-function calculadoraMedia (n1, n2, n3) {
-    return (n1 + n2 + n3) / 3;
+function soma (a, b) {
+    return a + b;
 }
-let media = calculadoraMedia(5, 6, 7);
-console.log(`A média é: ${media}`);
+
+const somaArrow = (a, b) => a + b;
+
+console.log(soma(2, 3));
+console.log(somaArrow(2, 3));
+console.log(soma(5, 7));
